@@ -414,7 +414,7 @@
 <div class="footer-subscribe">
     <h3 class="title">Подпишитесь на рассылку</h3>
 
-    <form action="">
+    <form>
     
             <input type="email" name="email" id="email" placeholder="E-mail" class="footer-email">
         
@@ -432,11 +432,40 @@
 
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button class="close" data-modal-close>
+        <button class="close" data-modal-close> 
             <svg class="close-img">
                 <use href="./img/SVG/icons.svg#close"></use>
             </svg>
         </button>
+
+        <div class="modal-box">
+        <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
+        
+            <ul class="modal-box-list">
+                <li class="modal-box-item">
+                    <label for="text" class="modal-box-text">Имя</label>
+                    <input type="text" name="text" id="text" class="modal-box-border">
+                </li>
+                <li class="modal-box-item">
+                    <label for="tel" class="modal-box-text">Телефон</label>
+                <input type="tel" name="tel" id="tel" class="modal-box-border">
+                </li>
+                <li class="modal-box-item">
+                    <label for="mail" class="modal-box-text">Почта</label>
+                    <input type="email" name="mail" id="mail" class="modal-box-border">
+
+                </li>
+                <li class="modal-box-item">
+                    <label for="comment" class="modal-box-text">Комментарий</label>
+                    <textarea name="comment" id="comment" class="comment-box" placeholder="Введите текст"></textarea>
+                </li>
+            </ul>
+        
+        <input type="checkbox" id="checkbox" class="checkbox-input">
+        <label for="checkbox" class="checkbox-text">Соглашаюсь с рассылкой и принимаю <a class="checkbox-input-text" href="#">Условия договора</a></label>
+
+        <button type="submit" class="modal-box-button">Отправить</button>
+    </div>
     </div>
 </div>
 
