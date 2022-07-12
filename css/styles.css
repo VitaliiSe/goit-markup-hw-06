@@ -456,9 +456,9 @@ margin-bottom: 9px;
 
  background-image: linear-gradient(
   to right,
-  rgba(12, 2, 2, 0.5),
-  rgba(17, 5, 17, 0.5),
-  rgba(3, 10, 3, 0.5)),
+  rgba(85, 62, 62, 0.5),
+  rgba(49, 40, 49, 0.5),
+  rgba(55, 61, 55, 0.5)),
   url(../img/Fon.jpg);
   background-position: center;
   background-size: cover;
